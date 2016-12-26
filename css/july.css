@@ -46,8 +46,8 @@ a:active{text-decoration:none;}
 .metro-body{padding:1px;}
 .metro-body > img{width: 196px;height: 100%;}
 .simple-page{width: 300px;text-align: center;margin-left: auto;margin-right: auto;}
-
-
-
-
 /*-------siteList end-------*/
+
+.list-body{padding: 10px;}
+.search-content{padding: 5px;background-color: #E7E7E7;}
+.page-footer{text-align: center;}
