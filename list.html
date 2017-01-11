@@ -14,8 +14,17 @@
     <div class="row">
         <div class="col-xs-12 list-body">
             <div class="panel panel-primary">
-                <div class="panel-heading">
-                    <h3 class="panel-title">栏目列表</h3>
+                <div class="panel-heading toolbar">
+                    <div class="list-title">
+                        <h3 class="panel-title">栏目列表</h3>
+                    </div>
+                    <div class="list-btn">
+                        <button class="btn btn-success">新增</button>
+                        <button class="btn btn-primary">新增</button>
+                        <button class="btn btn-danger">新增</button>
+                        <button class="btn btn-default">新增</button>
+                        <button class="btn btn-warning">新增</button>
+                    </div>
                 </div>
                 <div class="panel-body">
                     <div class="search-content">
@@ -23,18 +32,6 @@
                             <div class="form-group">
                                 <div class="input-group">
                                     <div class="input-group-addon">栏目名称</div>
-                                    <input class="form-control" type="email" placeholder="Enter email">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <div class="input-group">
-                                    <div class="input-group-addon">栏目别名</div>
-                                    <input class="form-control" type="email" placeholder="Enter email">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <div class="input-group">
-                                    <div class="input-group-addon">栏目别名</div>
                                     <input class="form-control" type="email" placeholder="Enter email">
                                 </div>
                             </div>
@@ -132,7 +129,14 @@
                         <tfoot>
                             <tr>
                                 <td colspan="4">
-                                    总共100页，当前第1/100页
+                                    每页显示
+                                    <select id="showSize" name="showSize">
+                                        <option value="10" selected="selected">10</option>
+                                        <option value="20">20</option>
+                                        <option value="50">50</option>
+                                        <option value="100">100</option>
+                                        <option value="200">200</option>
+                                    </select>条，当前第1/100页。
                                 </td>
                             </tr>
                             <tr>
